@@ -1,0 +1,282 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+  }
+
+.solid-pink-button {
+	background-color:#BF418D;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: bold;
+  }
+  
+  .solid-pink-button:hover {
+	background-color: #1051f3;
+  }
+
+.form-area{
+	padding-top: 2%;
+	height: 100vh;
+	background: #fff;
+  }
+
+  .about-area{
+	height: 100vh;
+  }
+
+  .single-form{
+	background-color: rgb(255, 255, 255);
+  }
+
+  .left{
+	background-color: #ffffff;
+	padding: 90px 100px;
+  }
+
+  .left h2{
+	font-size: 30px;
+	color: #000000;
+	font-weight: 500;
+  }
+
+  .left h2 span{
+	font-weight: 50px;
+	color: #BF418D;
+  }
+
+  .right{
+	padding: 70px 100px;
+	position: relative;
+	font: 80px;
+	background-color: white;
+  }
+
+  .form-control{
+	border: black 2px solid;
+
+  }
+
+  .right button{
+	border: none;
+	border-radius: 0;
+	display: inline-block;
+	background: #3500ac;
+	color: #fff;
+	width: 100px;
+	padding: 15px 0;
+	margin-top: 20px;
+	font-size: 16px;
+
+  }
+
+
+.about-tite{
+	position: relative;
+	text-align: center;
+	font-weight: 600px;
+	padding-bottom: 25px;
+	color: #0001d7;
+}
+
+  .section-header{
+	position: relative;
+	text-align: center;
+	font-weight: 600px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+	color: #0001d7;
+}
+
+
+.section-header::after{
+	content: '';
+	height: 5px;
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 100px);
+	background: #BF418D;
+}
+
+.testmonials{
+	max-width: 600px;
+	padding: 0 15px 50px;
+	margin: 0 auto 80px auto;
+}
+
+content{
+	font-size: 15px;
+	background: #fff;
+  }
+  
+  .content p{
+	text-align: justify;
+  }
+  
+  .content p span{
+	font-size: 48px;
+	margin-right: 15px;
+  }
+
+  .carousel-control-next{
+	width: 20px;
+	height: 20px;
+	background: #BF418D;
+	border-radius: 1%;
+	right: 0px;
+	top: calc(50% - 25px);
+	opacity: 1;
+  }
+
+.carousel-control-prev{
+	width: 20px;
+	height: 20px;
+	background: #BF418D;
+	border-radius: 1%;
+	left: 0px;
+	top: calc(50% - 23px);
+	opacity: 1;
+}
+
+.solid-dark-button {
+	background-color:black;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	font-size: 15px;
+	cursor: pointer;
+  }
+  
+  .solid-dark-button:hover {
+	background-color: #444;
+  }
+
+  .footer-area{
+	background-color: #BF418D;
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+  }
+
+  
+  .fleft{
+	text-align: center;
+  }
+
+  .fleft h1{
+	font-size: 20px;
+	color: black;
+	font-weight: 500;
+  }
+
+  .fleft p{
+	font-weight: 50px;
+	color: #fff;
+  }
+
+  .form-em{
+	width: 100%;
+    border-radius: 5px;
+  }
+
+  .fright{
+	width: 100%;
+  }
+
+  .chef-story{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-right: 10px;
+  }
+  
+  .chef-story p{
+	text-align: justify;
+	padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  .chef-pic img{
+	max-width: 100%;
+    height: auto;
+  }
+
+  .banner{
+	height: 90vh;
+	min-height: 300px;
+	background: no-repeat scroll center scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .banner::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: black;
+	opacity: 0.6;
+  }
+
+  .carousel-caption{
+	bottom: 180px;
+	padding-left: 100px;
+	padding-right: 100px;
+  }
+
+  .carousel-caption h5{
+	font-size: 100px;
+	font-weight: 600;
+	color: #fff;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #fff0fe;
+  }
+
+  .carousel-caption p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff0fe;
+  }
+
+  .section-subtitle{
+	margin-top: 15px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+  }
+
+  .story {
+	padding-right: 5px;
+	padding-bottom: 5px;
+  }
+
+.story p{
+	font-size: 19px;
+	padding-top: 15px;
+}
+
+.about-section{
+	padding-top: 80px;
+	background: #ffffff;
+}
+
+.baker{
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
